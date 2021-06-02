@@ -21,6 +21,74 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Twitter Clone</h1>
+    <div class="container">
+      <header class="pb-2 mt-4 mb-2 border-bottom">
+        <h1>Twitter Clone</h1>
+      </header>
+      <div class="row">
+        <div class="col col-sm-8 col-12">
+          <h4>Cadastro</h4>
+          <form action="">
+            <div class="form-group">
+              <label for="nome"><h6>Nome</h6></label>
+              <input class="form-control" type="text" name="nome" id="nome" />
+            </div>
+            <div class="form-group">
+              <label for="email-cadastro"><h6>Email</h6></label>
+              <input
+                class="form-control"
+                type="email"
+                name="email-cadastro"
+                id="email-cadastro"
+              />
+            </div>
+            <div class="checkbox">
+              <label for="termos">
+                <input type="checkbox" name="termos" id="termos" /> Aceito os
+                termos do serviços.
+              </label>
+            </div>
+            <div class="radio">
+              <label for="moca">
+                <input type="radio" name="sexo" id="moca" /> Moça
+              </label>
+              <label for="moco">
+                <input type="radio" name="sexo" id="moco" /> Moço
+              </label>
+              <label for="java">
+                <input type="radio" name="sexo" id="lgbtqi" /> LGBTQI+
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </form>
+        </div>
+        <div class="col col-sm-4 col-12">
+          <h3>Login</h3>
+          <form action="">
+            <div class="form-group">
+              <label for="email-login"><h6>Email</h6></label>
+              <input
+                class="form-control"
+                type="email"
+                name="email-login"
+                id="email-login"
+                placeholder="Digite seu email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="senha-login"><h6>Senha</h6></label>
+              <input
+                type="password"
+                class="form-control"
+                name="senha-login"
+                id="senha-login"
+                placeholder="Digite sua senha"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
