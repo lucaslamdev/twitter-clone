@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Galvão</title>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="js/html5shiv-printshiv.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!--[if IE]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <header class="pb-2 mt-4 mb-2 border-bottom">
+        <h1>Twitter Clone</h1>
+      </header>
+      <div class="row">
+        <div class="col col-sm-6 col-6">
+          <h4>Cadastro</h4>
+          <form method="POST" action="cadastro.php">
+            <div class="form-group">
+              <label for="nome"><h6>Nome</h6></label>
+              <input
+                class="form-control"
+                type="text"
+                name="nome"
+                id="nome"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email"><h6>Email</h6></label>
+              <input
+                class="form-control"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="senha"><h6>Senha</h6></label>
+              <input
+                class="form-control"
+                type="password"
+                name="senha"
+                id="senha"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

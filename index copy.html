@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Galvão</title>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="js/html5shiv-printshiv.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!--[if IE]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <header class="pb-2 mt-4 mb-2 border-bottom">
+        <h1>Twitter Clone</h1>
+      </header>
+      <div class="row">
+        <div class="col col-sm-8 col-12">
+          <h4>Cadastro</h4>
+          <form action="">
+            <div class="form-group">
+              <label for="nome"><h6>Nome</h6></label>
+              <input class="form-control" type="text" name="nome" id="nome" />
+            </div>
+            <div class="form-group">
+              <label for="email-cadastro"><h6>Email</h6></label>
+              <input
+                class="form-control"
+                type="email"
+                name="email-cadastro"
+                id="email-cadastro"
+              />
+            </div>
+            <div class="form-group">
+              <label for="senha-cadastro"><h6>Senha</h6></label>
+              <input
+                class="form-control"
+                type="password"
+                name="senha-cadastro"
+                id="senha-cadastro"
+              />
+            </div>
+            <div class="checkbox">
+              <label for="termos">
+                <input type="checkbox" name="termos" id="termos" /> Aceito os
+                termos do serviços. :D
+              </label>
+            </div>
+            <div class="radio">
+              <label for="moca">
+                <input type="radio" name="sexo" id="moca" /> Moça
+              </label>
+              <label for="moco">
+                <input type="radio" name="sexo" id="moco" /> Moço
+              </label>
+              <label for="java">
+                <input type="radio" name="sexo" id="lgbtqi" /> LGBTQI+
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </form>
+        </div>
+        <div class="col col-sm-4 col-12">
+          <h3>Login</h3>
+          <form action="">
+            <div class="form-group">
+              <label for="email-login"><h6>Email</h6></label>
+              <input
+                class="form-control"
+                type="email"
+                name="email-login"
+                id="email-login"
+                placeholder="Digite seu email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="senha-login"><h6>Senha</h6></label>
+              <input
+                type="password"
+                class="form-control"
+                name="senha-login"
+                id="senha-login"
+                placeholder="Digite sua senha"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
